@@ -1,0 +1,16 @@
+*.log
+*.cache
+.cache/
+.DS_Store
+*.bak
+*.swp
+*.swo
+__pycache__/
+
+# Secrets/private files
+*.key
+*.pem
+*.env
+id_rsa
+id_ed25519
+known_hosts
