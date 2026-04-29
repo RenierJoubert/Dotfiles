@@ -1,6 +1,4 @@
-# Renier's Dotfiles
-
-## System
+# My Dotfiles
 
 - OS: Arch Linux
 - Window Manager: i3
