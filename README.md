@@ -11,3 +11,6 @@ My stack for my arch machine.
 | Compositor     | Picom      |
 | Shell          | fish       |
 | Terminal       | Ghostty    |
+
+## Screenshot
+![HDMI image](hdmi.png)
