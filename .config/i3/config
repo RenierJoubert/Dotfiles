@@ -20,7 +20,7 @@ exec_always --no-startup-id feh --bg-fill ~/Downloads/Pictures/Wallpapers/snow-b
 exec --no-startup-id xinput set-prop "DELL0AD9:00 27C6:0D43 Touchpad" "libinput Natural Scrolling Enabled" 1
 
 # Bar
-exec_always --no-startup-id killall polybar; polybar main
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Volume controls
 set $refresh_i3status killall -SIGUSR1 i3status
