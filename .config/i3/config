@@ -35,7 +35,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Applications
 bindsym $mod+Return exec ghostty
 bindsym Control+Mod1+l exec light-locker-command --lock
-bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-1/launcher.sh
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh
 
 # Window controls
 bindsym $mod+Shift+q kill
