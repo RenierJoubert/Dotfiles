@@ -12,5 +12,5 @@ My stack for my arch machine.
 | Shell          | fish       |
 | Terminal       | Ghostty    |
 
-## Screenshot
-![HDMI image](hdmi.png)
+## Demo
+![demo-screenshot](demo.png)
