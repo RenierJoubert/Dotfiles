@@ -1,7 +1,4 @@
 /* 
-ArcticQuartz — Obsidian theme
-Blue / grey / icy dark theme to match your i3 + Ghostty + Quartz setup.
-No green accents.
 */
 
 .theme-dark {
@@ -72,7 +69,7 @@ No green accents.
   --radius-l: 14px;
 }
 
-/* Light mode fallback, still cool-toned */
+/* Light mode */
 .theme-light {
   --background-primary: #eef4fb;
   --background-primary-alt: #e5edf7;
@@ -100,7 +97,7 @@ No green accents.
   --code-background: #e4edf7;
 }
 
-/* Main editor background with subtle grid/dot field */
+/* Main editor background */
 .workspace,
 .workspace-split,
 .markdown-source-view,
