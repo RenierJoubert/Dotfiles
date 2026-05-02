@@ -13,4 +13,4 @@
 | Notifications   | [Dunst](./.config/dunst)       |
 
 ## Demo
-![demo-screenshot](demo.png)
+![demo-screenshot](demo2.png)
