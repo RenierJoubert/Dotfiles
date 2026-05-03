@@ -6,8 +6,6 @@
 *.swp
 *.swo
 __pycache__/
-
-# Secrets/private files
 *.key
 *.pem
 *.env
