@@ -17,6 +17,12 @@ exec --no-startup-id ~/.local/bin/openrgb-autostart.sh
 exec_always --no-startup-id xrandr --output HDMI-1 --auto --primary --output eDP-1 --auto --right-of HDMI-1
 exec_always --no-startup-id feh --bg-fill ~/Downloads/Pictures/Wallpapers/snow-blue.jpg ~/Downloads/Pictures/Wallpapers/snow-blue.jpg
 
+# Screeshot (full screen)
+bindsym Print exec maim -g 1920x1080 ~/Downloads/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png
+
+#Screenshot (select region)
+bindsym $mod+Print exec maim -s ~/Downloads/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png
+
 # Natural scrolling
 exec --no-startup-id xinput set-prop "DELL0AD9:00 27C6:0D43 Touchpad" "libinput Natural Scrolling Enabled" 1
 
