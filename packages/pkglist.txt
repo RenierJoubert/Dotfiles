@@ -18,10 +18,12 @@ fastfetch
 fd
 feh
 ffmpegthumbnailer
+figma-linux
 firefox
 fish
 fzf
 ghostty
+gimp
 git
 github-cli
 helium-browser-bin
@@ -37,6 +39,7 @@ jdk-openjdk
 jq
 keepassxc
 lazygit
+lazysql
 less
 libva-intel-driver
 light-locker
@@ -48,6 +51,7 @@ linux-firmware
 maim
 maven
 mesa
+mpv
 nano
 neovim
 networkmanager
@@ -64,6 +68,8 @@ pipes.sh
 pipewire-pulse
 polybar
 poppler
+python-pip
+qbittorrent
 ripgrep
 rofi
 rsync
