@@ -21,7 +21,11 @@ exec_always --no-startup-id feh --bg-fill ~/Downloads/Pictures/Wallpapers/snow-b
 bindsym Print exec maim -g 1920x1080 ~/Downloads/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png
 
 #Screenshot (select region)
-bindsym $mod+Shift+s exec maim -s ~/Downloads/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png
+bindsym $mod+Shift+s exec bash -c \
+  'FILE=~/Downloads/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png; \
+   maim -g $(slop --blur=0) "$FILE" && \
+   xclip -selection clipboard -t image/png < "$FILE"'
+
 
 # Natural scrolling
 exec --no-startup-id xinput set-prop "DELL0AD9:00 27C6:0D43 Touchpad" "libinput Natural Scrolling Enabled" 1
