@@ -15,7 +15,7 @@ exec --no-startup-id ~/.local/bin/openrgb-autostart.sh
 
 # Display and wallpaper
 exec_always --no-startup-id xrandr --output HDMI-1 --auto --primary --output eDP-1 --auto --right-of HDMI-1
-exec_always --no-startup-id feh --bg-fill ~/Downloads/Pictures/Wallpapers/snow-blue.jpg ~/Downloads/Pictures/Wallpapers/snow-blue.jpg
+exec_always --no-startup-id feh --bg-fill /home/rj/dotfiles/.config/wallpapers/space.png /home/rj/dotfiles/.config/wallpapers/space.png
 
 # Screeshot (full screen)
 bindsym Print exec maim -g 1920x1080 ~/Downloads/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png
@@ -143,14 +143,14 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Theme
-set $bg        #09132F
-set $bg2       #193060
-set $bg3       #27447A
-set $accent    #5F8ED1
-set $accent2   #9CCBFF
-set $fg        #D8E6FF
-set $muted     #8FAEDB
-set $urgent    #D08770
+set $bg     #09090a
+set $bg2    #1a1a1b
+set $bg3    #1a1a1b
+set $accent #888784
+set $accent2 #b0afa8
+set $fg     #e8e8e6
+set $muted  #6b6a65
+set $urgent #b0afa8
 
 client.focused          $accent $bg2    $fg     $accent2 $accent
 client.focused_inactive $bg3    $bg     $muted  $bg3     $bg3
