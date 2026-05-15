@@ -23,6 +23,10 @@ bindsym Print exec maim -g 1920x1080 ~/Downloads/Pictures/screenshot-$(date +%Y-
 #Screenshot (select region)
 bindsym $mod+Shift+s exec ~/dotfiles/.config/i3/screenshot.sh
 
+# Brightness scaling
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+
 # Natural scrolling
 exec --no-startup-id xinput set-prop "DELL0AD9:00 27C6:0D43 Touchpad" "libinput Natural Scrolling Enabled" 1
 
