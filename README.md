@@ -7,10 +7,9 @@
 | Bar             | [Polybar](./.config/polybar)   |
 | Launcher        | [Rofi](./.config/rofi)         |
 | Compositor      | [Picom](./.config/picom)       |
-| Shell           | fish                           |
+| Shell           | [zsh](./.config/zsh)                           |
 | Terminal        | [Ghostty](./.config/ghostty)   |
 | Text Editor     | [Neovim](./.config/nvim)       |
 | Notifications   | [Dunst](./.config/dunst)       |
 
-## Demo
-![demo-screenshot](demo2.png)
+
