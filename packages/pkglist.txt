@@ -3,9 +3,11 @@ alacritty
 asciiquarium
 base
 base-devel
+bat
 bc
 bluez
 bluez-utils
+brightnessctl
 btop
 chafa
 cmatrix
@@ -14,6 +16,7 @@ dmenu
 dunst
 efibootmgr
 eww
+eza
 fastfetch
 fd
 feh
@@ -76,6 +79,7 @@ rsync
 sioyek
 slop
 smartmontools
+starship
 stylua
 sudo
 tree-sitter-cli
@@ -108,3 +112,4 @@ yay-debug
 yazi
 zoxide
 zram-generator
+zsh
