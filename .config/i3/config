@@ -19,7 +19,7 @@ bindsym F14 exec --no-startup-id ~/.local/bin/scroll-focus down
 
 # Display and wallpaper
 exec_always --no-startup-id xrandr --output HDMI-1 --auto --primary --output eDP-1 --auto --right-of HDMI-1
-exec_always --no-startup-id feh --bg-fill /home/rj/dotfiles/.config/wallpapers/rage.png
+exec_always --no-startup-id feh --bg-fill /home/rj/dotfiles/.config/wallpapers/elliot.jpg
 
 
 
@@ -149,14 +149,14 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Theme
-set $bg     #09090a
-set $bg2    #1a1a1b
-set $bg3    #1a1a1b
-set $accent #888784
-set $accent2 #b0afa8
-set $fg     #e8e8e6
-set $muted  #6b6a65
-set $urgent #b0afa8
+set $bg     #000000
+set $bg2    #121212
+set $bg3    #121212
+set $accent #c1c1c1
+set $accent2#c1c1c1
+set $fg     #c1c1c1
+set $muted  #999999
+set $urgent #5f8787
 
 client.focused          $accent $bg2    $fg     $accent2 $accent
 client.focused_inactive $bg3    $bg     $muted  $bg3     $bg3

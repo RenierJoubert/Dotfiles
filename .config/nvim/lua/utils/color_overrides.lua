@@ -60,9 +60,10 @@ function M.black_metal_theme_overrides()
   -- vim.api.nvim_set_hl(0, "Normal", { bg = "#222222" })
   -- vim.api.nvim_set_hl(0, "NormalNC", { bg = bg_color })
 
-  vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#888888", bg = "#222222" })
-  vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#888888", bg = "#222222" })
-  vim.api.nvim_set_hl(0, "LineNr", { fg = "#d6d2c8" })
+  -- line number column bg matches the bg (base00 of black-metal-gorgoroth)
+  vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#888888", bg = "#000000" })
+  vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#888888", bg = "#000000" })
+  vim.api.nvim_set_hl(0, "LineNr", { fg = "#d6d2c8", bg = "#000000" })
 
   -- accent = "#9c9b98"
   -- vim.api.nvim_set_hl(0, "Statement", { fg = accent })
@@ -127,8 +128,9 @@ function M.setup_colorscheme_overrides()
       if string.find(colorscheme, "base16") then
         if string.find(colorscheme, "metal") then
           M.black_metal_theme_overrides()
+        else
+          M.my_line_colors()
         end
-        M.my_line_colors()
       elseif colorscheme == "zenburn" then
         M.my_line_colors()
       elseif colorscheme == "zenbones" then
