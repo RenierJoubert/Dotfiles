@@ -16,6 +16,9 @@ compdef eza=ls
 # Better cat
 alias cat='bat'
 
+# Open yazi
+alias yy='yazi' 
+
 # =========================================================
 # Core utilities
 # =========================================================
